@@ -15,7 +15,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ![rating 01](https://user-images.githubusercontent.com/132589158/236343192-14f2da12-9410-493f-b869-73f34a6aa079.png)
 
 ### Links
-Live Site URL: [https://artemhlam.github.io/Interactive-rating-component/](https://artemhlam.github.io/Interactive-rating-component/)
+Live Site URL: [CLICK ME!!!!](https://artemhlam.github.io/Interactive-rating-component/)
 ### Built with
 
 - HTML 5
