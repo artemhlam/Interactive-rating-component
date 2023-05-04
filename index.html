@@ -13,44 +13,44 @@
   <link rel="stylesheet" href="./styles/thank-you-screen.css">
 </head>
 <body>
+  <main class="main">
+    <div class="wrapper">
+      <div class="rating-screen screen">
+        <img class="star-icon" src="images/icon-star.svg" alt="star icon">
+        <h1 class="title">
+          How did we do?
+        </h1>
+        <p class="text">
+          Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!
+        </p>
+        <div class="rating">
+          <button class="rating-btn" data-value="1">1</button>
+          <button class="rating-btn" data-value="2">2</button>
+          <button class="rating-btn" data-value="3">3</button>
+          <button class="rating-btn" data-value="4">4</button>
+          <button class="rating-btn" data-value="5">5</button>
+        </div>
 
-  <div class="wrapper">
-    <div class="rating-screen screen">
-      <img class="star-icon" src="images/icon-star.svg" alt="star icon">
-      <h1 class="title">
-        How did we do?
-      </h1>
-      <p class="text">
-        Please let us know how we did with your support request. All feedback is appreciated 
-        to help us improve our offering!
-      </p>
-      <div class="rating">
-        <button class="rating-btn" data-value="1">1</button>
-        <button class="rating-btn" data-value="2">2</button>
-        <button class="rating-btn" data-value="3">3</button>
-        <button class="rating-btn" data-value="4">4</button>
-        <button class="rating-btn" data-value="5">5</button>
+        <button class="submit-btn" >Submit</button>
       </div>
+      <div class="thank-you-screen hidden">
+        <img class="thank-you-img" src="./images/illustration-thank-you.svg" alt="thank you image">
 
-      <button class="submit-btn" >Submit</button>
-    </div>
-    <div class="thank-you-screen hidden">
-      <img class="thank-you-img" src="./images/illustration-thank-you.svg" alt="thank you image">
-      
-      <div class="selected">
-        <span>
-          You selected <span class="user-rate">4</span> out of 5
-        </span>
+        <div class="selected">
+          <span>
+            You selected <span class="user-rate">4</span> out of 5
+          </span>
+        </div>
+
+        <h1 class="title">Thank you!</h1>
+        <p class="text">
+          We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!
+        </p>
       </div>
-
-      <h1 class="title">Thank you!</h1>
-      <p class="text">
-        We appreciate you taking the time to give a rating. If you ever need more support, 
-        don’t hesitate to get in touch!
-      </p>
     </div>
-  </div>
-
+  </main>
 </body>
 <script src="scripts/script.js"></script>
 </html>
