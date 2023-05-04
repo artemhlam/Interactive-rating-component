@@ -42,6 +42,10 @@ function ratingBtnClickHandler(e) {
 
 
 submitBtn.addEventListener('click', (e) => {
+  if(userRate == 0) {
+    alert('Please, give us your feedback')
+  }
+  
   ratingScreenEl.classList.add('hidden');
   thankyouScreenEl.classList.remove('hidden');
 })
